@@ -1,0 +1,8 @@
+name: HardcoreSMP
+version: ALPHA-1.0
+main: dev.aarow.hardcore.HardcorePlugin
+author: Aarow_
+api-version: 1.16
+commands:
+  withdraw:
+  lives:

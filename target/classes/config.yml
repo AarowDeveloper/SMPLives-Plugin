@@ -1,0 +1,22 @@
+LIVES:
+  DEFAULT: 3
+  REVIVED: 1
+  MAX: 10
+DEATH-BAN:
+  TIME: 2h
+  MESSAGE: "&cYou have been death-banned, your ban will expire in &4<time>&c."
+KILL-LIFE-COOLDOWN: 30m
+LIFE-ITEM:
+  NAME: "&a&lLife &7&o(Right-Click)"
+  MATERIAL: HEART_OF_THE_SEA
+  LORE:
+    - ' &7&l• &eThis item holds &6<lives> &elive(s).'
+  MESSAGES:
+    MAX-LIVES: "&cYou already have the max amount of live(s)."
+    SUCCESS: "&aYou successfully added &2<lives> &amore live(s) to yourself."
+    WITHDRAW-FAIL: "&cYou don't have enough lives to withdraw that amount."
+    WITHDRAW-SUCCESS: "&aYou successfully withdrew &2<lives> &alive(s)."
+LIVES-MESSAGE:
+  PLAYER: "&aYou currently have a total of &2<lives> &alive(s)."
+  TARGET: "&a<player> currently has a total of &2<lives> &alive(s)."
+DEATH-MESSAGE: "&aYou lost one life, you currently have &2<lives> &alive(s)."
